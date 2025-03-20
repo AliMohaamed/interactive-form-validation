@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Portal</title>
+    <link rel="stylesheet" href="css/styles.css">     
+</head>
+<body>
+    <div class="registration-container">
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <h1>Join Our Student Community</h1>
+                <p>Complete your registration to access all of our learning resources and connect with fellow students.</p>
+                
+                <div class="registration-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-text">Fill in your personal details</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-text">Select your interests</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-text">Complete your registration</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <p>Already have an account? Sign in</p>
+            </div>
+        </div>
+        
+        <div class="form-section">
+            <div class="form-header">
+                <h2>Personal Information</h2>
+                <p>Please provide your details to create your account</p>
+            </div>
+            
+            <form id="registrationForm">
+                <div class="form-group floating-label">
+                    <input type="text" class="form-control" id="name" name="fullName" placeholder=" " >
+                    <label for="name">Full Name</label>
+                </div>
+                
+                <div class="form-group floating-label">
+                    <input type="text" class="form-control" id="email" name="email" placeholder=" " >
+                    <label for="email">Email Address</label>
+                </div>
+                
+                <div class="form-group floating-label">
+                    <input type="password" class="form-control" id="password" name="password" placeholder=" " >
+                    <label for="password">Password</label>
+                </div>
+                
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="radio-group">
+                        <label class="custom-radio">
+                            Male
+                            <input type="radio" name="gender" value="male">
+                            <span class="radio-checkmark"></span>
+                        </label>
+                        <label class="custom-radio">
+                            Female
+                            <input type="radio" name="gender" value="female">
+                            <span class="radio-checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Sports Interest</label>
+                    <div class="checkbox-group">
+                        <label class="custom-checkbox">
+                            Tennis
+                            <input type="checkbox" name="sports" value="tennis">
+                            <span class="checkbox-checkmark"></span>
+                        </label>
+                        <label class="custom-checkbox">
+                            Running
+                            <input type="checkbox" name="sports" value="running">
+                            <span class="checkbox-checkmark"></span>
+                        </label>
+                        <label class="custom-checkbox">
+                            Football
+                            <input type="checkbox" name="sports" value="football">
+                            <span class="checkbox-checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <select class="form-control" id="country" name="country">
+                        <option value="" selected disabled>Select your country</option>
+                        <option value="us">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="ca">Canada</option>
+                        <option value="au">Australia</option>
+                        <option value="fr">France</option>
+                        <option value="de">Germany</option>
+                        <option value="jp">Japan</option>
+                        <option value="cn">China</option>
+                        <option value="in">India</option>
+                        <option value="br">Brazil</option>
+                    </select>
+                </div>
+                
+                <div class="button-group">
+                    <button type="submit" class="btn btn-submit">Create Account</button>
+                    <button type="reset" class="btn btn-reset">Reset</button>
+                </div>
+                
+                <div class="form-footer">
+                    By <b>Ali Mohamed</b>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
