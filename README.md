@@ -147,9 +147,8 @@ interactive-form-validation/
 - Edge (latest)
 - Opera (latest)
 
-## 📝 License
 
-This project is licensed by Ali Mohamed
+This project by Ali Mohamed
 
 ## 🤝 Contributing
 
